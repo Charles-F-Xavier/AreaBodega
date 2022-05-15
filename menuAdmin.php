@@ -9,7 +9,7 @@ $apellido = $_SESSION['apellido'];
 $passwd_t = $_SESSION['passwd_t'];
 
 if ($rut == null || "") {
-    echo '<script language="javascript">alert("Acceso invalido");</script>';
+    echo '<script language="javascript">alert("Acceso invalidoa");</script>';
     echo "<script> window.location.replace('index.php') </script>";
 }
 
